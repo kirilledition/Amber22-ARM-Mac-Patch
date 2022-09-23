@@ -1,0 +1,6 @@
+90,91c90,91
+< 	set(MINICONDA_INSTALLER ${MINICONDA_DOWNLOAD_DIR}/${MINICONDA_INSTALLER_FILENAME})
+< 	set(INSTALLER_URL "http://repo.continuum.io/miniconda/${MINICONDA_INSTALLER_FILENAME}")
+---
+> 	set(MINICONDA_INSTALLER ${MINICONDA_DOWNLOAD_DIR}/Mambaforge-MacOSX-arm64.sh)
+> 	set(INSTALLER_URL "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-arm64.sh")
